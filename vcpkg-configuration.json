@@ -1,0 +1,15 @@
+{
+    "default-registry": {
+      "kind": "git",
+      "repository": "https://github.com/microsoft/vcpkg",
+      "baseline": "53bef8994c541b6561884a8395ea35715ece75db"
+    },
+    "registries": [
+      {
+        "kind": "git",
+        "repository": "https://github.com/Quidient/public-vcpkg-registry",
+        "baseline": "bca304de4814037f79fb96d61f9ffdbb500d4cae",
+        "packages": [ "libintegrate", "materialx", "vxl"]
+      }
+    ]
+}

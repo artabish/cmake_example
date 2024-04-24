@@ -1,0 +1,19 @@
+{
+  "name": "cmake-example",
+  "version": "0.1",
+  "description": "CMake example",
+  "dependencies": [
+    {
+      "name": "python3"
+    },
+    {
+      "name": "pybind11"
+    }
+  ],
+  "overrides": [
+    { 
+        "name": "python3", 
+        "version": "3.10.7"
+    }
+  ]
+}
